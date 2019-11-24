@@ -16,13 +16,13 @@ The compiler can be divided into three components:
 - Code Generator
 
 ### Lexer
-The first component the lexer or scanner. It’s role is to take the program as input and divide it into tokens. A token is a  group of characters forming a basic unit of syntax, such as a identifier, number, etc.
+The first component the lexer or scanner. Its role is to take the program as input and divide it into tokens. A token is a  group of characters forming a basic unit of syntax, such as a identifier, number, etc.
 
 ### Parser
-The second component is the parser. It’s role is to do a syntax check of the program. It takes the list of tokens as input and creates an abstract syntax tree as output.
+The second component is the parser. Its role is to do a syntax check of the program. It takes the list of tokens as input and creates an abstract syntax tree as output.
 
 ### Code Generator
-The third and last component is the code generator. It’s role is to transform the syntax tree created from the parser into machine language. In this case, it’s going to transform the syntax tree into assembly.
+The third and last component is the code generator. Its role is to transform the syntax tree created from the parser into machine language. In this case, it’s going to transform the syntax tree into assembly.
 
 
 ## Instructions
